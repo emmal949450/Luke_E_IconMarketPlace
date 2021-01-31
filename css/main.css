@@ -1,0 +1,62 @@
+.wrapper {width: 40%; display: inline-block;}
+
+.wrapper > img {width: 100%;}
+
+#Layer_1: {fill: red !important;}
+
+#mainHeader
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+}
+
+/*This is a flex item*/
+#logo
+{
+	width: 200px;
+}
+
+
+/*Nav*/
+
+#mainNav
+ {
+	margin-left: auto;
+	width: 500px;
+	background-color: #a80404;
+
+}
+
+nav a {
+	color: black;
+	text-transform: uppercase; 
+}
+
+nav a:hover {
+	color: #68248d;
+	text-decoration: underline;
+}
+
+
+.navtext {
+	
+    text-align:left;
+    vertical-align:top;
+    display:inline-block;
+    padding: 25px; 
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 0 auto;
+    font-size: 20px;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.bar-right {
+	padding-left: 19px;
+	padding-top: 8px;
